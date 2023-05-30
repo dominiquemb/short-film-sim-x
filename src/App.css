@@ -40,3 +40,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+#video-button-column img{
+  margin-bottom: 10px;
+
+}
+
+.progress-bar {
+  width: 90%;
+  height: fit-content;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 2%;
+}
+
+.progress-bar .increment {
+  width: 3.5%;
+  aspect-ratio: 0.6;
+  background-color: #4CAF50;
+  border-radius: 40%;
+  margin : 0.65%;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  margin-top: 3vw !important;
+  margin-bottom: 3vw !important;
+}
+
+body{
+  background: rgb(245, 241, 242);
+  padding-bottom: 5vh;
+}
+
+.healhCard{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif);
+  background-repeat: no-repeat;
+  background-position: right 30px top;
+  
+
+}
