@@ -22,10 +22,10 @@ const events = [
 
 export default function Thoughts() {
   return (
-    <Card style ={{ marginLeft:"10%", marginRight:"10%",marginTop:"5vh" , marginBottom:"5vh" }}>
+    <Card style ={{ marginLeft:"2%", marginRight:"2%",marginTop:"2vh" , marginBottom:"2vh" }}>
       <CardContent>
 
-            <Typography variant="h5" component="div" sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
+            <Typography variant="h5" component="div" sx={{ width: '95%' , marginTop:1,marginBottom : 1}}>
                 Thoughts
             </Typography>
         <br></br>
@@ -34,7 +34,7 @@ export default function Thoughts() {
         {
             events.map( (element , index) => { return <>
 
-          <Card sx={{ width:"90%", margin :"auto"  }} > 
+          <Card sx={{ width:"95%", margin :"auto"  }} > 
                   <CardActionArea>
                       <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
