@@ -68,7 +68,7 @@ const bull = (
 
 export default function HealthCard() {
   return (
-    <Card className="healhCard" sx={{ minWidth: 275 , paddingLeft:"5%",paddingRight:"5%",paddingTop:"2vh"}}>
+    <Card className="healhCard" sx={{ minWidth: 275 , marginLeft:"5%",marginRight:"5%",paddingTop:"2vh"}}>
       <CardContent>
         <Typography variant="h5" component="div" sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
          Health

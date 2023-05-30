@@ -86,7 +86,7 @@ function Event(props) {
 
 export default function Events() {
   return (
-    <Card sx={{ minWidth: 275 , paddingLeft:"5%",paddingRight:"5%",paddingTop:"2vh"}}>
+    <Card sx={{ minWidth: 275 , marginLeft:"5%", marginRight:"5%",paddingTop:"2vh"}}>
       <CardContent>
 
         <div style={{display:"flex"}}>
