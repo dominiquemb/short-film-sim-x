@@ -24,6 +24,7 @@ export default function Sequence() {
             <Typography variant="h5"> DNA sequence </Typography>
           </AccordionSummary>
           <AccordionDetails>
+            <p>
           AGGTCGGGCTATACCCGTAGCCTGATCAGGGACCTA
           CGCTTACCCACTCAGTGTTGCTCCCGCGATGAGCGGC
           GCCCTTGCCCGCGGTCGTTGTTCCTTTTGGGAGCTCGG
@@ -32,7 +33,7 @@ export default function Sequence() {
           AAGAACCTCCTGATCTTTAGATTTAGTACAGCATTCTTC
           CCGAGGCGAAACGTTTCAGAGCTCAGACCAACTATGAGGC
           TGGTGTCACACCTCGCCGAGCATTCTGAGCCAG ...
-
+            </p>
 
 
           </AccordionDetails>

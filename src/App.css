@@ -69,10 +69,7 @@
   margin-bottom: 3vw !important;
 }
 
-body{
-  background: rgb(245, 241, 242);
-  padding-bottom: 5vh;
-}
+
 
 .healhCard{
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/DNA_orbit_animated.gif);
@@ -81,3 +78,32 @@ body{
   
 
 }
+@font-face {
+  font-family: "SanFrancisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body {
+  font-family: SanFrancisco;
+  background-color: rgb(6,22,38);
+  padding-bottom: 5vh;
+
+}
+.MuiTypography-root{
+  color: rgb(198, 168, 56);
+
+}
+
+.MuiPaper-root{
+  background-color: rgb(21,40,61) !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation{
+  background-color: rgb(38, 58, 80) !important;
+}
+p{
+  color : rgb(187,188 , 189)  !important;
+
+}
+
