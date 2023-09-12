@@ -14,8 +14,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 const events = [
-  ["Remember metting at 1pm", "Amanda has a meeting with us"],
-  ["Uncertainty about mike being able to babysit", "Call tricha if he's not able to babysit"],
+  ["Remember meeting at 1pm", "Have to call Amanda in an hour for sprint retrospective"],
+  ["Uncertainty about Mike being able to babysit", "Call Trisha if he's not able to babysit"],
 ];
 
 

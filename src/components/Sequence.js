@@ -15,7 +15,10 @@ import LinearProgress from '@mui/material/LinearProgress';
 export default function Sequence() {
   return (
 
-        <Accordion className='dnaBackground' style ={{ marginLeft:"10%", marginRight:"10%",marginTop:"5vh" , borderRadius:"20px"}}>
+        <Accordion
+          defaultExpanded={true}
+         //className='dnaBackground'
+          style ={{ marginLeft:"2%", marginRight:"2%",marginTop:"5vh" , borderRadius:"20px"}}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -24,7 +27,14 @@ export default function Sequence() {
             <Typography variant="h5"> DNA sequence </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <p>
+            <textarea style={{
+              fontFamily: 'Courier New',
+              background: '#000',
+              width: '100%',
+              color: "#FFF",
+              minHeight: 100,
+              outline: 0,
+            }}>
           AGGTCGGGCTATACCCGTAGCCTGATCAGGGACCTA
           CGCTTACCCACTCAGTGTTGCTCCCGCGATGAGCGGC
           GCCCTTGCCCGCGGTCGTTGTTCCTTTTGGGAGCTCGG
@@ -33,7 +43,7 @@ export default function Sequence() {
           AAGAACCTCCTGATCTTTAGATTTAGTACAGCATTCTTC
           CCGAGGCGAAACGTTTCAGAGCTCAGACCAACTATGAGGC
           TGGTGTCACACCTCGCCGAGCATTCTGAGCCAG ...
-            </p>
+            </textarea>
 
 
           </AccordionDetails>

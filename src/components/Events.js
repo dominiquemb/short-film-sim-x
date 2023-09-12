@@ -14,9 +14,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 const events = [
-  ["Mr. Alex", "You have a meeting with Mr. Alex at 3:00 PM"],
-  ["Mr. Mayers", "You have a phone call with Mr. Mayers at 6:00 PM"],
-  ["Mr. Mayers" , "Mr. Mayers sent you an email"]
+  ["Mr. Alex", "Meeting with Mr. Alex at 3:00 PM"],
+  ["Mr. Meyers", "Incoming phone call with Mr. Mayers at 6:00 PM"],
+  ["Mr. Meyers" , "Mr. Meyers sent you an email"]
 ];
 
 
@@ -36,7 +36,7 @@ function Event(props) {
 
   return (
     <div>
-      <Card sx={{ width:"90%", margin :"auto"  }} aria-describedby={id}  onClick={handleClick}> 
+      <Card sx={{ margin :"auto"  }} aria-describedby={id}  onClick={handleClick}> 
                 <CardActionArea>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
@@ -86,7 +86,7 @@ function Event(props) {
 
 export default function Events() {
   return (
-    <Card sx={{ minWidth: 275 , marginLeft:"5%", marginRight:"5%",paddingTop:"2vh"}}>
+    <Card sx={{ minWidth: 275 , marginLeft:"2%", marginRight:"2%",paddingTop:"2vh"}}>
       <CardContent>
 
         <div style={{display:"flex"}}>

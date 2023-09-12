@@ -68,25 +68,28 @@ const bull = (
 
 export default function HealthCard() {
   return (
-    <Card className="healhCard" sx={{ minWidth: 275 , marginLeft:"5%",marginRight:"5%",paddingTop:"2vh"}}>
+    <Card className="healhCard" sx={{ minWidth: 275 , marginLeft:"2%",marginRight:"2%",paddingTop:"2vh"}}>
       <CardContent>
-        <Typography variant="h5" component="div" sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
+        {/* <Typography variant="h5" component="div" sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
          Health
         </Typography>
         <div className="progress-bar">
             {
                 healthBarColors.map((color,index)=>{return <div style={{backgroundColor : color }} className="increment" ></div>})
             }
-        </div>
+        </div> */}
         <Typography variant="h5" component="div" sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
          Hunger
         </Typography>
-        <div className="progress-bar">
+        {/* <div className="progress-bar">
             {
                 hungerBarColors.map((color,index)=>{return <div style={{backgroundColor : color }} className="increment" ></div>})
             }
-        </div>
-        <Accordion>
+        </div> */}
+        <Box sx={{ width: '90%' , marginTop:1,marginBottom : 1}}>
+                  <LinearProgress variant="determinate" value={50} />
+                </Box>
+        <Accordion defaultExpanded={true}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -108,7 +111,7 @@ export default function HealthCard() {
 
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion defaultExpanded={true}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"

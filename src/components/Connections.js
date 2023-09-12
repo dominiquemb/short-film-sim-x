@@ -20,7 +20,7 @@ import Divider from '@mui/material/Divider';
 export default function Connections() {
   return (
 
-        <Accordion style ={{ marginLeft:"10%", marginRight:"10%",marginTop:"5vh" , borderRadius:"20px"}}>
+        <Accordion defaultExpanded={true} style ={{ marginLeft:"2%", marginRight:"2%",marginTop:"5vh" , borderRadius:"20px"}}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
